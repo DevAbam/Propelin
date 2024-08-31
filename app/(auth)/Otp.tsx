@@ -59,14 +59,15 @@ const handleVerify = ()=>{
                 accessibilityLabel: "One-Time Password",
               }}
               theme={{
-                containerStyle: {width: '80%'},
-                pinCodeContainerStyle: {width: 50},
+                containerStyle: {width: '80%' },
+                pinCodeContainerStyle: {width: 50 , backgroundColor: "rgba(55,180,195,0.19)", borderWidth:0},
                 pinCodeTextStyle:{color: "#37B4C3", fontFamily: "poppins"},
                 focusedPinCodeContainerStyle:{borderColor: "#37b4c3"},
                 focusStickStyle:{backgroundColor: "#37b4c3"}
               }}
             />
-              
+              {/* 220 20 60 0.19 */}
+              {/* rgba(55,180,195,0.19) */}
             <Pressable className=' w-[80%] mx-auto h-16 rounded-2xl   bg-primary  items-center justify-center' onPress={handleVerify}><Text className='text-white font-poppinsSB text-xl' >Verify</Text></Pressable>
           </View>
              
