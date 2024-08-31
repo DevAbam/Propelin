@@ -38,7 +38,7 @@ const handleVerify = ()=>{
         </View>
         {/* Text view  this is wer i took out boarder*/}
         <View className='    mt-2  w-full'>
-          <Text className=' text-center font-poppinsB text-2xl mb-2 mt-2 text-light'>Registration</Text>
+          <Text className=' text-center font-poppinsB text-2xl mb-2 mt-2 text-light'>Sign Up</Text>
           <Text className=' text-center font-poppins text-md text-light '>Enter the 4 digits code sent to your mobile number</Text>
         </View>
         
