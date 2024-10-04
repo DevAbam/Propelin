@@ -12,6 +12,14 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+    "expo-env.d.ts",
+    "app/(mainapp)/index.jsx",
+    "context/AuthContext.jsx",
+    "components/WardCard.jsx",
+    "app/(mainapp)/[ward]/Stats.jsx",
+    "app/(mainapp)/[ward]/Reports.jsx",
+    "app/(mainapp)/[ward]/Bills.jsx",
+    "app/(mainapp)/[ward]/Home.jsx",
+    "nativewind-env.d.ts"
+, "app/(auth)/Otp.jsx"  ]
 }

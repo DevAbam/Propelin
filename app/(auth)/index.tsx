@@ -6,7 +6,6 @@ import {StatusBar} from 'expo-status-bar'
 
 
 import { router } from 'expo-router'
-import CountryInput from '@/components/CountryInput'
 const Phonenumber = () => {
   
   
